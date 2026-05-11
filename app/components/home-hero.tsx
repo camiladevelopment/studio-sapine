@@ -62,67 +62,69 @@ export default function HomeHero() {
           <div className="font-[family-name:var(--font-playfair)] text-white">
             {/* TOPO */}
             <motion.h1
-          initial={{ opacity: 0, y: 14 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{
-            duration: 0.9,
-            ease: [0.22, 1, 0.36, 1],
-          }}
-          className="
-            max-w-[320px]
-            text-[clamp(2.8rem,13vw,3.9rem)]
-            font-normal
-            leading-[0.92]
-            tracking-[-0.045em]
-            sm:max-w-[420px]
-            md:max-w-none
-            md:text-[clamp(3.8rem,5vw,5rem)]
-          "
-        >
-          Studio Sap
-          <span className="relative inline-block leading-none text-[#D4AF5A]">
-          i
+              initial={{ opacity: 0, y: 14 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{
+                duration: 0.9,
+                ease: [0.22, 1, 0.36, 1],
+              }}
+              className="
+                max-w-[100%]
+                text-[clamp(2.3rem,11vw,3.4rem)]
+                font-normal
+                leading-[1]
+                tracking-[-0.03em]
+                sm:max-w-[420px]
+                md:max-w-none
+                md:text-[clamp(3.8rem,5vw,5rem)]
+                md:leading-[0.92]
+                md:tracking-[-0.045em]
+              "
+            >
+              Studio Sap
+              <span className="relative inline-block leading-none text-[#D4AF5A]">
+                i
 
-          {/* cobre o pingo original */}
-          <span
-            className="
-              absolute
-              left-1/2
-              top-0
-              z-[5]
-              h-[0.32em]
-              w-[0.22em]
-              -translate-x-1/2
-              bg-black
-            "
-          />
+                {/* cobre o pingo original */}
+                <span
+                  className="
+                    absolute
+                    left-1/2
+                    top-0
+                    z-[5]
+                    h-[0.32em]
+                    w-[0.22em]
+                    -translate-x-1/2
+                    bg-black
+                  "
+                />
 
-          {/* novo pingo glow */}
-          <span
-            className="
-              absolute
-              left-1/2
-              top-[0.02em]
-              z-10
-              h-[0.16em]
-              w-[0.16em]
-              -translate-x-1/2
-              rounded-full
-              bg-[#D4AF5A]
-              shadow-[0_0_10px_rgba(212,175,90,1),0_0_24px_rgba(212,175,90,0.95)]
-            "
-          />
-        </span>
-          ne
-        </motion.h1>
+                {/* novo pingo glow */}
+                <span
+                  className="
+                    absolute
+                    left-1/2
+                    top-[0.02em]
+                    z-10
+                    h-[0.16em]
+                    w-[0.16em]
+                    -translate-x-1/2
+                    rounded-full
+                    bg-[#D4AF5A]
+                    shadow-[0_0_10px_rgba(212,175,90,1),0_0_24px_rgba(212,175,90,0.95)]
+                  "
+                />
+              </span>
+              ne
+            </motion.h1>
 
             {/* FRASE DINÂMICA */}
             <div
               className="
                 relative
-                mt-2
-                min-h-[62px]
-                sm:min-h-[70px]
+                mt-3
+                min-h-[96px]
+                sm:min-h-[110px]
                 md:min-h-[82px]
               "
             >
@@ -149,16 +151,19 @@ export default function HomeHero() {
                     absolute
                     left-0
                     top-0
-                    max-w-[320px]
-                    text-[clamp(2.8rem,13vw,3.9rem)]
+                    max-w-full
+                    text-[clamp(2.3rem,11vw,3.4rem)]
                     font-medium
-                    leading-[0.92]
-                    tracking-[-0.045em]
+                    leading-[1]
+                    tracking-[-0.03em]
                     text-[#C6A25A]
+                    break-words
                     sm:max-w-[420px]
                     md:max-w-none
                     md:whitespace-nowrap
                     md:text-[clamp(3.8rem,5vw,5rem)]
+                    md:leading-[0.92]
+                    md:tracking-[-0.045em]
                   "
                 >
                   {PHRASES[phraseIndex]}
@@ -176,14 +181,16 @@ export default function HomeHero() {
                 ease: [0.22, 1, 0.36, 1],
               }}
               className="
-                max-w-[320px]
-                text-[clamp(2.8rem,13vw,3.9rem)]
+                max-w-full
+                text-[clamp(2.3rem,11vw,3.4rem)]
                 font-normal
-                leading-[0.92]
-                tracking-[-0.045em]
+                leading-[1]
+                tracking-[-0.03em]
                 sm:max-w-[420px]
                 md:max-w-[760px]
                 md:text-[clamp(3.8rem,5vw,5rem)]
+                md:leading-[0.92]
+                md:tracking-[-0.045em]
               "
             >
               para negócios exigentes.
@@ -232,7 +239,7 @@ export default function HomeHero() {
             "
           >
             <Link
-              href="https://wa.me/5551980165791"
+              href="https://wa.me/5551980165791?text=Olá!%20Quero%20mais%20informações%20sobre%20a%20Sapine."
               className="
                 inline-flex
                 h-[50px]
