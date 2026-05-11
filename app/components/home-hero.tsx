@@ -122,9 +122,9 @@ export default function HomeHero() {
             <div
               className="
                 relative
-                mt-3
-                min-h-[96px]
-                sm:min-h-[110px]
+                mt-2
+                min-h-[72px]
+                sm:min-h-[84px]
                 md:min-h-[82px]
               "
             >
