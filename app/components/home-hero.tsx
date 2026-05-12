@@ -32,7 +32,7 @@ export default function HomeHero() {
           max-w-7xl
           px-6
           pt-24
-          pb-16
+          pb-10
           sm:px-8
           md:px-12
           md:pt-32
@@ -206,7 +206,7 @@ export default function HomeHero() {
               duration: 0.8,
             }}
             className="
-              mt-7
+              mt-5
               max-w-[560px]
               text-[14px]
               leading-[1.9]
@@ -230,7 +230,7 @@ export default function HomeHero() {
             className="
               relative
               z-10
-              mt-8
+              mt-6
               flex
               flex-col
               gap-3
